@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+/* COMMON STYLE  */
+.common-btn{
+    background-color: #fd6e0a;
+    color: white;
+    padding: 8px 4px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 8px 0px;
+}
+.logo{
+    font-weight: bold;
+    font-size: 32px;
+}
+.orange-letter{
+    color: #FD6E0A;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style:none;
+    gap: 10px;
+    align-items: center;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+}
